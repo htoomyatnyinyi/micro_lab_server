@@ -1,0 +1,45 @@
+
+POST http://localhost:8080/mlab/signin
+content-type: application/json
+
+{
+   "email": "db@mlab.com",
+   "password" : "mlab.."
+}
+
+   ### "email" : "user1@mlab.com"
+
+###
+
+POST http://localhost:8080/mlab/signin
+Content-Type: application/json
+
+{
+   "email": "m@mlab.com",
+   "password": "password"
+}
+
+###
+GET http://localhost:8080
+
+###
+
+POST http://localhost:8080/mlab/signin
+Content-Type: application/json
+
+{
+   "password": "mlab..",
+   "email": "hmnn@mlab.com"
+}
+###
+
+POST http://localhost:8080/mlab/signup
+Content-Type: application/json
+
+{
+   "username": "hd",
+   "password": "mlab..",
+   "email": "hd@mlab.com"
+}
+
+###
